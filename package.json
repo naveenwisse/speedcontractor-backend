@@ -38,7 +38,7 @@
     "mongoose-deep-populate": "3.0.0",
     "mongoose-lifecycle2": "1.0.3",
     "mongoose-migration": "0.2.0",
-    "morgan": "1.8.2",
+    "morgan": "1.9.1",
     "newrelic": "2.2.2",
     "node-mandrill": "1.0.1",
     "nodemailer": "4.3.1",
