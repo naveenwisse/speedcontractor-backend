@@ -1,0 +1,50 @@
+{
+    "invite": {
+        "to": "<invite-mail>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "You're Invited! - Speed Contractor",
+        "text": "You have been invited to join the Speed Contractor Beta.\n\nPlease click on the following link, or paste this into your browser to register:\n\nhttps:/\/www.speedcontractor.com/register/<invite-token>\n"
+    },
+    "confirmEmail": {
+        "to": "<user-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Please confirm your email (user.email) - Speed Contractor",
+        "text": "You are receiving this because you have signed up for an account with Speed Contractor.\n\nPlease click on the following link, or paste this into your browser to confirm your email address:\n\nhttps:/\/www.speedcontractor.com/confirm/<email-confirm-token>\n\nIf you did not sign up for Speed Contractor, please ignore this email.\n"
+    },
+    "signup": {
+        "to": "<user-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Please confirm your email (<user-email>) - Speed Contractor",
+        "text": "You are receiving this because you have signed up for an account with Speed Contractor.\n\nPlease click on the following link, or paste this into your browser to confirm your email address:\n\nhttps:/\/www.speedcontractor.com/confirm/<token>\n\nIf you did not sign up for Speed Contractor, please ignore this email.\n"
+    },
+    "confirmComplete": {
+        "to": "<user-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Welcome to Speed Contractor",
+        "text": "Hello,\n\nWelcome to Speed Contractor, you can login to your account at the link below to get started.\n\nhttps:/\/www.speedcontractor.com/login"
+    },
+    "contact": {
+        "to": "info@speedcontractor.com",
+        "from": "<user-email>",
+        "subject": "Contact Form (<user-name>) - Speed Contractor",
+        "text": "Begin message:\n\nSubject: <subject>\n\n<input-message>\n"
+    },
+    "forgotPassword": {
+        "to": "<user-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Password Reset - Speed Contractor",
+        "text": "You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\nPlease click on the following link, or paste this into your browser to complete the process:\n\nhttps:/\/www.speedcontractor.com/reset/<token>\n\nIf you did not request this, please ignore this email and your password will remain unchanged.\n"
+    },
+    "passwordReset": {
+        "to": "<user-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Your password has been changed - Speed Contractor",
+        "text": "Hello,\n\nThis is a confirmation that the password for your account <user.email> has just been changed.\n"
+    },
+    "businessApproved": {
+        "to": "<business-admin-email>",
+        "from": "do-not-reply@speedcontractor.com",
+        "subject": "Business Request Approved - Speed Contractor",
+        "text": "Hello,\n\nThis is a confirmation that your business account (<company-name>) has just been approved.\n"
+    }
+}

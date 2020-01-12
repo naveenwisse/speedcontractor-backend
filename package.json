@@ -1,0 +1,67 @@
+{
+  "name": "sc-api",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "description": "Speed Contractor NodeJS API.",
+  "author": "Widad Saghir",
+  "repository": "https://bitbucket.org/plantedpeople/pp-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-prebuild": "node create_migrate_config_file.js",
+    "heroku-postbuild": "./node_modules/mongoose-migration/bin/migrate.js"
+  },
+  "keywords": [
+    "plantedpeople",
+    "heroku"
+  ],
+  "dependencies": {
+    "async": "2.5.0",
+    "bcryptjs": "2.4.3",
+    "bluebird": "3.5.0",
+    "body-parser": "1.18.2",
+    "co": "4.6.0",
+    "compression": "1.7.0",
+    "consolidate": "0.14.5",
+    "cors": "2.8.4",
+    "dotenv": "4.0.0",
+    "express": "4.15.5",
+    "express-rate-limit": "2.9.0",
+    "express-ssl": "3.1.0",
+    "express-validator": "4.2.1",
+    "hashids": "1.1.1",
+    "helmet": "3.8.1",
+    "jsonwebtoken": "8.0.1",
+    "moment": "2.18.1",
+    "mongoose": "4.11.13",
+    "mongoose-deep-populate": "3.0.0",
+    "mongoose-lifecycle2": "1.0.3",
+    "mongoose-migration": "0.2.0",
+    "morgan": "1.8.2",
+    "newrelic": "2.2.2",
+    "node-mandrill": "1.0.1",
+    "nodemailer": "4.3.1",
+    "nodemailer-mandrill-transport": "1.2.0",
+    "plivo": "0.4.1",
+    "q": "1.5.0",
+    "raven": "^2.2.1",
+    "request": "2.82.0",
+    "slugify": "1.2.1",
+    "stripe": "5.1.0",
+    "swig": "1.4.2",
+    "trueskill": "0.0.2",
+    "twilio": "3.19.1",
+    "uuid": "3.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-eslint": "20.1.0",
+    "grunt-express-server": "0.5.3"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.10"
+  }
+}
