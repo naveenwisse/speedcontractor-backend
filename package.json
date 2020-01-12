@@ -34,7 +34,7 @@
     "helmet": "3.8.1",
     "jsonwebtoken": "8.0.1",
     "moment": "2.18.1",
-    "mongoose": "4.11.13",
+    "mongoose": "5.7.5",
     "mongoose-deep-populate": "3.0.0",
     "mongoose-lifecycle2": "1.0.3",
     "mongoose-migration": "0.2.0",
